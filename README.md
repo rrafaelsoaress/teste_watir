@@ -13,7 +13,7 @@ Para instalar recomendo o rbenv para gerenciar as versões
 
 2- Clonar o projeto do Github
 ```bash
-git clone 
+git clone git@github.com:rrafaelsoaress/teste_watir.git
 ```
 3- Na pasta do projeto executar o bundle
 ```bash
