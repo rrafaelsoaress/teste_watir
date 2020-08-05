@@ -1,0 +1,14 @@
+### Execução ###
+default: -p prod
+
+### Relatorios ###
+html_report: -f pretty -f html -o reports/feature_report.html
+json_report: --format pretty -f json -o reports/feature_report.json
+
+### Ambientes ###
+prod: ENVIRONMENT=prod
+dev: ENVIRONMENT=dev
+
+### Browsers ###
+console: EXECUTION=headless
+browser: EXECUTION=browser
